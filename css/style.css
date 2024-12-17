@@ -1,13 +1,25 @@
 @font-face {
   font-family: 'KerakNeraka';
-  src: url('./KerakNeraka-8Oaoz.otf');
+  src: url('MountainsofChristmas-Bold.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 23%;
+    height: 23%;
+}
+
 :root {
-  --color-bg: rgba(103, 157, 157, 0.587);
-  --color-fg: #fff;
+  --color-bg: rgb(233, 66, 66);
+  --color-fg: #ffffff;
 
   --font-body: sans-serif;
   --font-header: 'KerakNeraka', sans-serif;
@@ -33,6 +45,9 @@ body {
     place-items: center;
     background-color: var(--color-bg);
     z-index: -1;
+    background-image: url("Christmas_Border_Frame_PNG_Image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -42,7 +57,7 @@ main {
 }
 
 h1 {
-    font-size: var(--step-5);
+    font-size: 4rem;
     line-height: 1;
     color: var(--color-fg);
     font-family: var(--font-header);
