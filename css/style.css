@@ -12,11 +12,6 @@
     justify-content: space-between;
 }
 
-img {
-    width: 23%;
-    height: 23%;
-}
-
 :root {
   --color-bg: rgb(233, 66, 66);
   --color-fg: #ffffff;
@@ -48,6 +43,7 @@ body {
     background-image: url("Christmas_Border_Frame_PNG_Image.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 main {
@@ -67,7 +63,8 @@ h1 {
 p {
     font-size: var(--step-2);
     color: var(--color-fg);
-    font-family: var(--font-body);
+    font-family: var(--font-header);
+
 }
 
 canvas {
